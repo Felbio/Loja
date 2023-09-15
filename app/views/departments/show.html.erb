@@ -1,0 +1,24 @@
+<p style="color: green"><%= notice %></p>
+
+<table class='table table-bordered table-hover'>
+  <thead>
+    <tr>
+      <td>Nome</td>
+      <td>Descrição</td>
+      <td>Departamento</td>
+      <td>Preço</td>
+      <td>Quantidade</td>
+      <td colspan="2">
+    </tr>
+  </thead>
+  <tbody>       
+      <%= render @produtos_by_department%>  
+  </tbody>     
+</table>
+
+<div>
+  <%= link_to "Editar Departamento", edit_department_path(@department), class: "btn btn-default" %> 
+  <%= link_to "Voltar", departments_path, class: "btn btn-default" %>
+
+  <%#= button_to "Destroy this department", @department, method: :delete %>
+</div>
