@@ -149,9 +149,9 @@ pt-BR:
     select:
       prompt: Por favor selecione
     submit:
-      create: Criar %{model}
+      create: Criar Departamento
       submit: Salvar %{model}
-      update: Atualizar %{model}
+      update: Atualizar Departamento
   number:
     currency:
       format:

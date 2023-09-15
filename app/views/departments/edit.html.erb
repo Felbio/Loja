@@ -1,10 +1,10 @@
-<h1>Editing department</h1>
+<h1>Editando Departamento</h1>
 
 <%= render "form", department: @department %>
 
 <br>
 
 <div>
-  <%= link_to "Show this department", @department %> |
-  <%= link_to "Back to departments", departments_path %>
+  <%= link_to "Exibir Departamento", @department, class: "btn btn-default" %>
+  <%= link_to "Voltar", departments_path, class:"btn btn-default" %>
 </div>
